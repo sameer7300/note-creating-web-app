@@ -1,0 +1,28 @@
+/* Loader Container */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the loader is centered on full screen */
+  background-color: #f9f9f9; /* Optional: Add a subtle background for contrast */
+}
+
+/* Loader Styling */
+.loader {
+  border: 6px solid #f3f3f3; /* Slightly thicker for better visibility */
+  border-top: 6px solid #3498db; /* Accent color for motion clarity */
+  border-radius: 50%;
+  width: 60px; /* Increased size for emphasis */
+  height: 60px;
+  animation: spin 1.5s linear infinite; /* Faster spin for modern aesthetics */
+}
+
+/* Keyframes for Spin Animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

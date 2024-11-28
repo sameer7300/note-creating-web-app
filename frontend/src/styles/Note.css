@@ -1,0 +1,55 @@
+/* Note Container Styling */
+.note-container {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow for a lifted look */
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.note-container:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Enhanced shadow on hover */
+  transform: translateY(-5px); /* Slight upward motion */
+}
+
+/* Note Title Styling */
+.note-title {
+  color: #34495e; /* Deep blue-gray for better contrast */
+  font-size: 1.25rem; /* Larger size for emphasis */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Note Content Styling */
+.note-content {
+  color: #555; /* Slightly darker for improved readability */
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Note Date Styling */
+.note-date {
+  color: #999;
+  font-size: 0.85rem; /* Slightly larger for better visibility */
+  font-style: italic; /* Distinct style for dates */
+}
+
+/* Delete Button Styling */
+.delete-button {
+  background-color: #e74c3c; /* Slightly brighter red for vibrancy */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px; /* Softer corners for a modern look */
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.delete-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
