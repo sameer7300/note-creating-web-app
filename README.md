@@ -1,6 +1,6 @@
 # Notes Management App
 
-This project is a **full-stack application** built with **React** (frontend) and **Django REST Framework** (backend). The app allows users to register, log in, create, view, and delete notes. The application also implements JWT-based authentication and authorization.
+My this project is a **full-stack application** built with **React** as ( frontend) and **Django REST Framework** as (backend). The app allows users to register, log in, create, view, and delete notes. The application also implements JWT-based authentication and authorization.
 
 ---
 
